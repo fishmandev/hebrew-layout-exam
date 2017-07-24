@@ -16,9 +16,18 @@ body {
     margin-left: auto;
 }
 
-.container, .question-col {
+.container, .question-col, .sound {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.sound img {
+    width: 24px;
+    height: 24px;
+}
+
+.space {
+    min-height: 70px;
 }
 
 .row {
@@ -34,7 +43,6 @@ body {
 
 .question {
     font-size: 24px;
-    padding: 20px 0 80px 0;
 }
 
 .answer-col {
